@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+}
+
+#nav-bar{
+    overflow: hidden;
+    top:0;
+    width:100%;
+    position: fixed;
+}
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    background-color: cadetblue;
+    
+}
+
+ul{
+    margin:0px;
+}
+
+.navbar-list a{
+    float: left;
+    padding: 24px 20px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#nav-bar a:hover{
+    background-color: rgb(127, 175, 177);
+}
+
+#about{
+    padding: 325px;
+    background-image: url("https://img.freepik.com/free-vector/abstract-digital-low-poly-connection-banner-design_1017-32434.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    color: antiquewhite;
+}
+
+#projects {
+    background-color: rgb(137, 207, 137);
+    padding: 200px; /* Add padding for spacing around the content */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+}
+
+#BattleshipGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; /* Adjust margin for spacing */
+}
+
+#BattleshipGame div {
+    background-color: grey;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/board-games-colored-1/48/Games_BoardGames_Artboard_32-512.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px; /* Adjust the width according to your design */
+    height: 150px; /* Adjust the height according to your design */
+    margin-top: 10px; /* Adjust margin for spacing between the image and text */
+}
